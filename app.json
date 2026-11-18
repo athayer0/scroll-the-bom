@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "scroll-the-bom-app",
-    "slug": "scroll-the-bom-app",
+    "name": "Scroll BoM",
+    "slug": "scroll-the-bom",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
       "adaptiveIcon": {
@@ -20,6 +20,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "scheme": "scrollbom"
   }
 }
